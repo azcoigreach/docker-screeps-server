@@ -7,4 +7,4 @@ fi
 
 VER=$1
 
-docker build -t ags131/screeps-server:$VER -t ags131/screeps-server:latest . --build-arg SCREEPS_VERSION=$VER
+docker build -t azcoigreach/screeps-server:$VER -t azcoigreach/screeps-server:latest . --build-arg SCREEPS_VERSION=$VER
